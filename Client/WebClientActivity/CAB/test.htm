@@ -1,0 +1,12 @@
+﻿<html>
+<head>
+    <title>CSharpActiveX测试</title>
+</head>
+<body>
+    <object id="csharpActiveX" classid="clsid:65D8E97F-D3E2-462A-B389-241D7C38C518" codebase="CSharpActiveX.CAB#version=1,0,1" style="display: none;"></object>
+    <script type="text/javascript" language="javascript">
+        var activeX = document.getElementById("csharpActiveX");
+        alert(activeX.GetMacAddress());
+    </script>
+</body>
+</html>

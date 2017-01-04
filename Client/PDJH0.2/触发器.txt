@@ -1,0 +1,29 @@
+
+CREATE TABLE [dbo].[PD_JHDL02](
+	[BRID] [varchar](10) NULL,
+	[KSDM] [varchar](10) NULL,
+	[YSDM] [varchar](10) NULL,
+	[FPHM] [varchar](20) NOT NULL,
+	[JHZT] [int] NULL,
+	[PDLH] [int] NULL,
+	[GHRQ] [datetime] NULL,
+	[BRXM] [varchar](20) NULL,
+	[PMID] [int] NULL,
+	[RDSJ] [datetime] NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
+
+create trigger tri_pd_jhdl  on PD_JHDL
+for insert
+as
+begin
+insert into pd_jhdl02(BRID, KSDM, YSDM, FPHM, JHZT, PDLH, GHRQ, BRXM, PMID, RDSJ
+)select BRID, KSDM, YSDM, FPHM, JHZT, PDLH, GHRQ, BRXM, PMID, RDSJ
+ from inserted
+end

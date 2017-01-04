@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <WebView
+        android:id="@+id/webview_page"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:onClick="onClick"
+        >
+
+    </WebView>
+    <RelativeLayout
+        android:id="@+id/layout_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#95000000"
+        android:visibility="gone"
+        android:onClick="onClick"
+        />
+    <WebView
+        android:id="@+id/webview_ad"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:translationY="-150dp"
+        android:onClick="onClick"
+        >
+
+    </WebView>
+    <RelativeLayout
+        android:id="@+id/layout_loading"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:onClick="onClick">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="系统尚未初始化"
+            android:onClick="onClick"/>
+        </RelativeLayout>
+    <EditText
+        android:id="@+id/edt_sendmsg"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:translationY="-100dp"
+        />
+</RelativeLayout>

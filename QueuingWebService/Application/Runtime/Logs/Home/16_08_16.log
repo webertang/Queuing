@@ -1,0 +1,550 @@
+[ 2016-08-16T00:33:18+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-16T00:33:20+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-16T00:33:24+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-16T09:58:02+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-16T09:58:03+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T09:58:03+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-16T09:58:03+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-16T09:58:03+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-16T09:58:03+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T09:58:04+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-16T09:58:04+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2016-08-16T09:58:04+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-08-16T09:59:17+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T09:59:58+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:00:04+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:00:07+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:00:09+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:00:15+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-08-16T10:00:28+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-08-16T10:01:57+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:03:16+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:03:16+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:03:22+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-08-16T10:03:25+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:03:25+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-16T10:03:29+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:04:18+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:04:18+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:04:27+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:04:29+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-16T10:04:30+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:04:30+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-08-16T10:04:30+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:04:33+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:04:34+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:15:21+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-08-16T10:16:34+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:16:51+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:18:20+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-16T10:32:48+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:32:53+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:33:39+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-16T10:33:47+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:33:47+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:34:30+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:34:38+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-16T10:34:38+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:36:28+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-08-16T10:36:36+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-08-16T10:36:36+08:00 ] 192.168.0.100 /QueuingService/home/index/game?Data=%7B%22IMEI%22%3A%22imei%3A864895023217282-cyjhuser%5Bx86%5D%40_%40Intel%28R%29_Core%28TM%29_i5-3320M_CPU_%40_2.60GHz%22%2C%22AppId%22%3A%2257831966-e2ba-4a1b-8246-0bc81a9d8bf5%22%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+

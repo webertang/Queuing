@@ -1,0 +1,13 @@
+﻿<html>
+<head>
+    <title>CSharpActiveX测试</title>
+</head>
+<body>
+    <object id="csharpActiveX" classid="clsid:17CE6C43-3FE9-4CFB-A2B0-5C2F2328B400" codebase="CSharpActiveX.CAB#version=1,0,1" style="display: none;"></object>
+    <script type="text/javascript" language="javascript">
+        var activeX = document.getElementById("csharpActiveX");
+
+alert(activeX.sendVoice("192.168.0.100",6666,"100@1|002号利益|耳t|0|g医生t|0|03t0|就诊t|0t45|等候t"));
+    </script>
+</body>
+</html>

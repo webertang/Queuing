@@ -1,0 +1,9 @@
+{"messageType":"Heartbeat","receiverPort":0,"second":0,"senderIp":"/10.0.4.15","senderPort":45858}
+
+
+
+{"messageType":"Stream","DataType":["http://192.168.0.112/11.png"],"Content":["s1f"]}
+
+{"messageType":"Stream","DataType":["http://192.168.0.112/11.png"],"Content":["s1f"]}
+
+{"MessageType":"Modify","ReceiverIp":"192.168.0.100","ReceiverPort":"5588","Content":["https://www.baidu.com","https://www.baidu.com","https://www.baidu.com"]}

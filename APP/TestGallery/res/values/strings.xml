@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TestGallary</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+	<string name="firstshow">第一种演示效果（幻灯片）</string>
+	<string name="setcondshow">第二种演示效果（模仿淘宝详情图片）</string>
+</resources>
