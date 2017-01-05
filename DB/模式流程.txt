@@ -1,0 +1,14 @@
+
+--========模拟药房叫号============
+--模拟HIS发药语句
+UPDATE V_PD_YFPDXX SET FYZT = 1 WHERE BRID = 12088
+--取消已叫号标志，以免发药后不自动叫号
+UPDATE PD_YFPDXX SET JHZT=0,CJCS=0 WHERE BRID = 12088
+--================================
+
+--后台修改叫号转态为正在叫号
+UPDATE PD_YFPDXX SET JHZT=1,CJCS=0 WHERE BRID = 12088
+
+--显示当日挂号信息
+UPDATE PD_YSPDXX SET GHSJ =  GETDATE()
+ WHERE GHSJ IN (SELECT MAX(GHSJ) FROM PD_YSPDXX)

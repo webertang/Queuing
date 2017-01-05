@@ -1,0 +1,44 @@
+//排队系统建表语句
+/****** Object:  Table [dbo].[PD_YSPDXX]    Script Date: 12/23/2015 11:55:48 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[PD_YSPDXX](
+	[KSDM] [numeric](18, 0) NULL,
+	[YSDM] [numeric](18, 0) NULL,
+	[KSMC] [varchar](10) NULL,
+	[YSXM] [varchar](10) NULL,
+	[YSZC] [varchar](10) NULL,
+	[BRID] [numeric](18, 0) NULL,
+	[BRXM] [varchar](10) NULL,
+	[JZZT] [int] NULL,
+	[GHSJ] [datetime] NULL,
+	[PDXH] [numeric](18, 0) NULL,
+	[JHZT] [int] NULL,
+	[JHCS] [int] NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+/******--获取系统时间视图******/
+Create  view V_SYSDATE
+as 
+select GETDATE() SYS_DATE
+
+CREATE TABLE [dbo].[PD_YFPDXX](
+	[YFSB] [NUMERIC](18,0) null,
+	[YFCK] [NUMERIC](18,0) null,
+	[BRID] [numeric](18, 0) NULL,
+	[BRXM] [varchar](10) NULL,
+	[SFSJ] [datetime] NULL,
+	[JHZT] [int] NULL,
+	[CJCS] [int] NULL
+) ON [PRIMARY]
