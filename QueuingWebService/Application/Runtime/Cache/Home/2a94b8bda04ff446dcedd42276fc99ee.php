@@ -7,7 +7,7 @@
 	</head>
 
 	<body>
-		<div style="position:absolute;top:0px;left: 0px; width:768px; height:1366px; z-index:-1;background-image: url('/QueuingService/Public/Home/images/background.jpg');">
+		<div style="position:absolute;top:0px;left: 0px; width:768px; height:1366px; z-index:-1;background-image: url('/Public/Home/images/background.jpg');">
 			<div style="line-height:108px;text-align:center;color: white;font-size: 45px;">
 				<strong>深圳市第一人民医院--<?php echo $data[ksmc]; ?></strong>
 			</div>
