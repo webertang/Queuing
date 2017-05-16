@@ -9,9 +9,11 @@ C:\Windows\Microsoft.NET\Framework\v2.0.50727\RegAsm.exe LedScreen.dll
 SYSTEM:
 0、管理系
 1、医生叫号主界面
-2/4、医生/医技分诊台
+2/4/6/8、2(实业街)产科分诊台4医技分诊台6胎监分诊台8中心胎监分诊台
 3、LED显示屏幕
 5、医技叫号主界面
+7、实业街产科大屏叫号
+
 
 pmid:对应显示大屏ID
 
