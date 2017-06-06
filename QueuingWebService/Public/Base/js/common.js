@@ -1,1 +1,1 @@
-var myUrl = "http://192.168.2.62/queuingService/";
+var myUrl = "http://www.tzw.tzw/";

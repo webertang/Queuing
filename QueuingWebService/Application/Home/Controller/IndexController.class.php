@@ -3,6 +3,7 @@ namespace Home\Controller;
 use Think\Controller;
 class IndexController extends BaseController {
 	public function index() {
+			
 		//http://localhost/queuingService/home/index?OfficeId=30601&OperatorId=3896&visit0=1
 		//通过诊室代码获取科室信息
 		if ($_GET[OfficeId] and $_GET[OperatorId]) {
