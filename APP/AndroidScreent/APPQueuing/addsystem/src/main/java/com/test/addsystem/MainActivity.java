@@ -163,7 +163,7 @@ public class MainActivity extends Activity implements IMainView {
 
     private void initUrlData() {
         SharedPreferences sp = MainActivity.this.getSharedPreferences(RECEIVER_INFO_PREFS, Context.MODE_PRIVATE);
-        String pageUrl = sp.getString(RECEIVER_INFO_PREFS_PAGEURL_KEY, "");
+        String pageUrl = sp.getString(RECEIVER_INFO_PREFS_PAGEURL_KEY, "");//主显页面
         if (!TextUtils.isEmpty(pageUrl)) {
             mPageAndAdUrls.add(pageUrl);
         }
