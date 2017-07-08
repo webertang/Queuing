@@ -121,7 +121,7 @@ namespace PDTools.SocketManager
             {
                 querySolutionFacade.ExecCustomQuery(sql);
             }
-            catch (Exception e)
+            catch (Exception)
             {
 
             }

@@ -1,0 +1,10 @@
+[InstallShield Silent]
+Version=v7.00
+File=Log File
+[ResponseResult]
+ResultCode=0
+[Application]
+Name=jTTS 5.0 Desktop
+Version=5.0
+Company=SinoVoice
+Lang=0804

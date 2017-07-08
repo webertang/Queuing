@@ -144,7 +144,7 @@ namespace PDTools
                     //rowID|QueueNumber+Name|Departments(科室)|Office(诊室)|
                     for (int i = 1; i < 4; i++)
                     {
-                        string sEmpty = "", sTmp1 = "", sTmp2 = "";
+                        string sTmp1 = "", sTmp2 = "";
                         int msgLength = Encoding.Default.GetBytes(msg[i]).Count();
                         //截取需要显示的内容（这里显示6个汉字12个字符）
                         if (msgLength > 12)
@@ -302,7 +302,7 @@ namespace PDTools
 
                 return true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 strMessage = "不合法的注册认证文件";
                 return false;

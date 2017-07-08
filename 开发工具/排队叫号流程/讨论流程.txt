@@ -1,0 +1,5 @@
+1、叫号器：打开显示登录界面
+2、分诊台统计： 整个科室统计、单个医生统计、时段统计（年月日）可导出表格。挂号人数
+3、所有医生叫号信息，由导诊台进行呼叫。（只能呼叫\接收当前导诊台所属诊室病人）
+http://www.china-shine.com.cn/html/index.html
+http://www.lonbon.com/2003/big/NLB-82-22b.jpg

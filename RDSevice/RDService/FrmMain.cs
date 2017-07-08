@@ -63,11 +63,10 @@ namespace RD.Service
                 clientCount = Convert.ToInt32(AppConfig.GetAppSetting("clientCount"));
 
                 //socket绑定,递归调用,无法使用委托返回消息内容 comment by:tzw
-                int connclientCount = Convert.ToInt32(AppConfig.GetAppSetting("clientCount"));
-                newlstener = new RDTools.NewSocketManager.NewSendMessage(Serverport, connclientCount);
+                newlstener = new RDTools.NewSocketManager.NewSendMessage(Serverport, clientCount);
                 newlstener.ConnClient();
                 //使用线程监听端口，效率可能没有上面的高，但是可以通过委托调用返回数据 add by:tzw@2016.7.9
-                //newlstener = new RDTools.NewSocketManager.NewListener(1024, port, connclientCount);
+                //newlstener = new RDTools.NewSocketManager.NewListener(1024, port, clientCount);
                 //newlstener.ReceiveMessage += new EventHandler<RDTools.NewSocketManager.MessageEventArgs>(newlstener_ReceiveMessage);
                 //newlstener.Start();
             }

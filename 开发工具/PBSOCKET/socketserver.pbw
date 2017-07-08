@@ -1,0 +1,9 @@
+Save Format v3.0(19990112)
+@begin Unchecked
+@end;
+@begin Targets
+ 0 "socketserver.pbt";
+ 1 "socketclient.pbt";
+@end;
+DefaultTarget "socketclient.pbt";
+DefaultRemoteTarget "socketclient.pbt";

@@ -74,7 +74,7 @@
     <Reference Include="DevExpress.XtraLayout.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="PDTools, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\PDTools\bin\Debug\PDTools.dll</HintPath>
+      <HintPath>..\..\Client\PDTools\bin\Debug\PDTools.dll</HintPath>
     </Reference>
     <Reference Include="RD.DB.Access">
       <HintPath>..\..\RDTools\DB.Access\bin\Debug\RD.DB.Access.dll</HintPath>
@@ -85,7 +85,7 @@
     </Reference>
     <Reference Include="RD.Tools, Version=6.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\RDTools\RDTools\bin\Debug\RD.Tools.dll</HintPath>
+      <HintPath>..\..\..\DotNetHIS\Src\RDTools\RDTools\bin\Debug\RD.Tools.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
