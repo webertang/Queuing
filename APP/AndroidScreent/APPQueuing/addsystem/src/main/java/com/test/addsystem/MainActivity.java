@@ -167,11 +167,11 @@ public class MainActivity extends Activity implements IMainView {
         if (!TextUtils.isEmpty(pageUrl)) {
             mPageAndAdUrls.add(pageUrl);
         }
-        String adUrl = sp.getString(RECEIVER_INFO_PREFS_ADURL_KEY, "");
+        String adUrl = sp.getString(RECEIVER_INFO_PREFS_ADURL_KEY, "");//消息提示页面
         if (!TextUtils.isEmpty(adUrl)) {
             mPageAndAdUrls.add(adUrl);
         }
-        String noticeAdUrl = sp.getString(RECEIVER_INFO_PREFS_NOTICEADURL_KEY, "");
+        String noticeAdUrl = sp.getString(RECEIVER_INFO_PREFS_NOTICEADURL_KEY, "");//消息回传提示页面
         if (!TextUtils.isEmpty(noticeAdUrl)) {
             mPageAndAdUrls.add(noticeAdUrl);
         }
