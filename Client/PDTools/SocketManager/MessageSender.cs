@@ -79,7 +79,7 @@ namespace PDTools.SocketManager
                     voice.PlayText(text);
                     voice.EndJtts();
                     System.Threading.Thread.Sleep((int)(text.Length * 280));
-                    
+
                     //if (voice == null) voice = new Voice();
 
                     //if (voice.jTTS_GetStatus() == Jtts.STATUS_READING)
@@ -103,22 +103,23 @@ namespace PDTools.SocketManager
         /// </summary>
         public void UpdateQueue(String[] message)
         {
-            //0    1   2      @  0    1               2         3            4      5              6         7            8          9
-            //IP1|IP2|IP3|……@rowID|Name|Departments(科室)|OfficeId(诊室)|Doctor|SoundCardID|visitNumber|visitPatient|waitNumber|waitpatient
-            string iCardNum = message[0];
-            string[] data = message[1].Split('|');
-
-            String visitNumber = data[6], visitPatient = data[7], waitnumber = data[8], waitpatient = data[9],
-                    officeId = data[3].Replace("诊室", ""), department = data[2], screenId = message[0], Doctor = data[4];
-
-            QuerySolutionProxy querySolutionFacade = new QuerySolutionProxy();
-            string sql = "update pd_display set brxm='" + visitPatient + "', pdhm='" + visitNumber +
-                                            "', waitpatient='" + waitpatient + "', waitnumber='" + waitnumber +
-                                            "', ksmc='" + department + "', ysmc='" + Doctor +
-                                    "'  where  zsdm = '" + officeId + "' and pmid = '" + screenId + "'";
-
             try
             {
+                //0      @1(0                1        2              3            4                5                    6                     7                       8          9
+                //LED屏ID@rowID(LED行号/安卓屏幕ID)|Name|Departments(科室)|Office(诊室)|Doctor(医生名称)|SoundCardID(声卡ID)|visitNumber(就诊人号码)|visitName(就诊人姓名)|waitNumber(等候人号码)|waitName(等候人姓名)
+                string iCardNum = message[0];
+                string[] data = message[1].Split('|');
+
+                String visitNumber = data[6], visitPatient = data[7], waitnumber = data[8], waitpatient = data[9],
+                        officeId = data[3].Replace("诊室", ""), department = data[2], screenId = message[0], Doctor = data[4];
+
+                QuerySolutionProxy querySolutionFacade = new QuerySolutionProxy();
+                string sql = "update pd_display set brxm='" + visitPatient + "', pdhm='" + visitNumber +
+                                                "', waitpatient='" + waitpatient + "', waitnumber='" + waitnumber +
+                                                "', ksmc='" + department + "', ysmc='" + Doctor +
+                                        "'  where  zsdm = '" + officeId + "' and pmid = '" + screenId + "'";
+
+
                 querySolutionFacade.ExecCustomQuery(sql);
             }
             catch (Exception)

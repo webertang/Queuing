@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{189FDA4C-B9CD-41E8-93F0-136760C06B3F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RDTools</RootNamespace>
+    <AssemblyName>RD.Tools</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="log4net">
+      <HintPath>..\..\RDAssembly\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=4.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\RDAssembly\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RD.DB.Access, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Debug\RD.DB.Access.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Common\AppConfig.cs" />
+    <Compile Include="Common\Attributes.cs" />
+    <Compile Include="Common\BaseFormCls.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\ChineseNum.cs" />
+    <Compile Include="Common\ComboBoxCls.cs" />
+    <Compile Include="Common\DecimalRound.cs" />
+    <Compile Include="Common\EncryptAndDecrypt.cs" />
+    <Compile Include="Common\FrmBaseOutChild.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Common\FrmBaseOutChild.Designer.cs">
+      <DependentUpon>FrmBaseOutChild.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Common\IMedicare.cs" />
+    <Compile Include="Common\MessageBox.cs" />
+    <Compile Include="Common\PIDCard.cs" />
+    <Compile Include="Common\PinWbCode.cs" />
+    <Compile Include="Common\RDManagementClass.cs" />
+    <Compile Include="Common\RegEdit.cs" />
+    <Compile Include="Common\SysOperator.cs" />
+    <Compile Include="Common\SystemConfig.cs" />
+    <Compile Include="Common\SystemConfigCollection.cs" />
+    <Compile Include="Common\SystemInfo.cs" />
+    <Compile Include="Common\UnitToPack.cs" />
+    <Compile Include="Common\ValidateCode.cs" />
+    <Compile Include="Common\WaitDialogForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entity\Attributes.cs" />
+    <Compile Include="Entity\BusinessProxyBase.cs" />
+    <Compile Include="Entity\BusinessRulesBase.cs" />
+    <Compile Include="Entity\Enlarge.cs" />
+    <Compile Include="Entity\EntityBase.cs" />
+    <Compile Include="Entity\EntityList.cs" />
+    <Compile Include="Entity\EntityState.cs" />
+    <Compile Include="Entity\HttpRuntimeCache.cs" />
+    <Compile Include="Entity\ReflectionExtension.cs" />
+    <Compile Include="IDCard\ReadCard_App.cs" />
+    <Compile Include="IDCard\ReadIDCard.cs" />
+    <Compile Include="IDCard\ReadIDCardNew.cs" />
+    <Compile Include="LoggingService\LogService.cs" />
+    <Compile Include="MessageManager\Message.cs" />
+    <Compile Include="MessageManager\MessageArrayList.cs" />
+    <Compile Include="MessageManager\MsgLog.cs" />
+    <Compile Include="NewSocketManager\Client.cs" />
+    <Compile Include="NewSocketManager\ClientEventArgs.cs" />
+    <Compile Include="NewSocketManager\ComputerEnum.cs" />
+    <Compile Include="NewSocketManager\Extend.cs" />
+    <Compile Include="NewSocketManager\MessageEventArgs.cs" />
+    <Compile Include="NewSocketManager\MessageTypeEnum.cs" />
+    <Compile Include="NewSocketManager\NewClient.cs" />
+    <Compile Include="NewSocketManager\NewListener.cs" />
+    <Compile Include="NewSocketManager\NewMessage.cs" />
+    <Compile Include="NewSocketManager\NewSender.cs" />
+    <Compile Include="NewSocketManager\NewSendMessage.cs" />
+    <Compile Include="NewSocketManager\Pub.cs" />
+    <Compile Include="NewSocketManager\SocketEventArgs.cs" />
+    <Compile Include="Pass\CreateJSONStrForKM\CMDrugBase.cs" />
+    <Compile Include="Pass\CreateJSONStrForKM\DrugBase.cs" />
+    <Compile Include="Pass\CreateJSONStrForKM\ItemBase.cs" />
+    <Compile Include="Pass\CreateJSONStrForKM\JsonReader.cs" />
+    <Compile Include="Pass\CreateJSONStrForKM\PreBase.cs" />
+    <Compile Include="Pass\CreateJSONStrForKM\RootBase.cs" />
+    <Compile Include="Pass\CreateXMLStrForCZ\DrugBase.cs" />
+    <Compile Include="Pass\CreateXMLStrForCZ\ICDBase.cs" />
+    <Compile Include="Pass\CreateXMLStrForCZ\RootBase.cs" />
+    <Compile Include="Pass\CreateXMLStrForCZ\PreBase.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\AllergicHistory.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\DiagnoseHospitalized.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\DiagnoseOutpatient.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\DoctorInfoBase.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\DoctorInfoHospitalized.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\DoctorInfoOutpatient.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\MedicineBase.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\MedicineHospitalized.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\MedicineOutpatient.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\PatientInfoBase.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\PatientInfoHospitalized.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\PatientInfoOutpatient.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\PrescriptionBase.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\PrescriptionHospitalized.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\PrescriptionOutpatient.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\SafeBase.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\SafeHospitalized.cs" />
+    <Compile Include="Pass\CreateXMLStrForDT\SafeOutpatient.cs" />
+    <Compile Include="Pass\DllDynamic.cs" />
+    <Compile Include="Pass\PassFunction.cs" />
+    <Compile Include="Pass\PassFunctionForCZ.cs" />
+    <Compile Include="Pass\PassFunctionForDT.cs" />
+    <Compile Include="Pass\PassFunctionForKM.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="QuotedPrice\TDJCApplication.cs" />
+    <Compile Include="SocketManager\FormHistoryMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SocketManager\FormHistoryMessage.Designer.cs">
+      <DependentUpon>FormHistoryMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SocketManager\FormMessage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SocketManager\FormMessage.Designer.cs">
+      <DependentUpon>FormMessage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SocketManager\Listener.cs" />
+    <Compile Include="SocketManager\MessageEventArgs.cs" />
+    <Compile Include="SocketManager\MessageItem.cs" />
+    <Compile Include="SocketManager\ReceiveMessage.cs" />
+    <Compile Include="SocketManager\ReceiveMessageEventArgs.cs" />
+    <Compile Include="SocketManager\Sender.cs" />
+    <Compile Include="SocketManager\SendMessage.cs" />
+    <Compile Include="Voice\Jtts.cs" />
+    <Compile Include="Voice\Voice.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Common\BaseFormCls.resx">
+      <DependentUpon>BaseFormCls.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\FrmBaseOutChild.resx">
+      <DependentUpon>FrmBaseOutChild.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Common\WaitDialogForm.resx">
+      <DependentUpon>WaitDialogForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SocketManager\FormHistoryMessage.resx">
+      <DependentUpon>FormHistoryMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SocketManager\FormMessage.resx">
+      <DependentUpon>FormMessage.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="IDCard\Document\二代证阅读机具用相片解码软件使用手册.doc" />
+    <None Include="IDCard\Document\身份证阅读器智能接口版SDK使用手册.doc" />
+    <None Include="IDCard\SAM USB驱动.rar" />
+    <None Include="QuotedPrice\setting.ini" />
+    <None Include="QuotedPrice\程序接入协议.doc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="IDCard\IDCard.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IDCard\sdtapi.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="IDCard\termb.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="QuotedPrice\BjqIntf.dll" />
+    <Content Include="QuotedPrice\EasyD12.dll" />
+    <Content Include="QuotedPrice\Readme.txt" />
+    <Content Include="QuotedPrice\TdBjq.dll" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
