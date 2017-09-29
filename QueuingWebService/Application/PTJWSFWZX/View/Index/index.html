@@ -108,8 +108,8 @@
 				success: function(data) {
 					var finallist = '';
 					for(i = data.length - 1; i >= 0; i--) {
-						finallist = finallist + '<li id="departmentNmae">' + (data[i].ksmc == null ? "　" : data[i].ksmc) + '</li>';
-						finallist = finallist + '<li id="visiterPatient">' + (data[i].brxm == null ? "　" : data[i].brxm) + '</li>';
+						finallist = finallist + '<li id="departmentNmae">' + (data[i].ksmc.length <= 0 ? "　" : data[i].ksmc) + '</li>';
+						finallist = finallist + '<li id="visiterPatient">' + ((data[i].brxm.length <= 0 && data[i].ksmc.pdhm <= 0 ) ? "　" : data[i].brxm) + '</li>';
 						finallist = finallist + '<li id="waitPatient">' + (data[i].waitpatient == null ? "　" : data[i].waitpatient) + '</li>';
 					}
 					list.innerHTML = finallist;

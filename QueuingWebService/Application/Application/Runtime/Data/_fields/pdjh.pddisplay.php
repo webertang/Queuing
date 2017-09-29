@@ -1,1 +1,0 @@
-a:9:{i:0;s:4:"ZSDM";i:1;s:4:"KSMC";i:2;s:4:"PMID";i:3;s:4:"SORT";i:4;s:4:"BRXM";i:5;s:4:"PDHM";i:6;s:11:"WAITPATIENT";i:7;s:10:"WAITNUMBER";s:5:"_type";a:8:{s:4:"ZSDM";s:7:"varchar";s:4:"KSMC";s:7:"varchar";s:4:"PMID";s:3:"int";s:4:"SORT";s:3:"int";s:4:"BRXM";s:7:"varchar";s:4:"PDHM";s:7:"varchar";s:11:"WAITPATIENT";s:7:"varchar";s:10:"WAITNUMBER";s:7:"varchar";}}
