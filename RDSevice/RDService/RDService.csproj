@@ -72,20 +72,19 @@
     <Reference Include="DevExpress.XtraEditors.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraGrid.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
     <Reference Include="DevExpress.XtraLayout.v11.1, Version=11.1.6.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
-    <Reference Include="PDTools, Version=1.0.0.0, Culture=neutral, processorArchitecture=x86">
-      <SpecificVersion>False</SpecificVersion>
+    <Reference Include="PDTools">
       <HintPath>..\..\Client\PDTools\bin\Debug\PDTools.dll</HintPath>
     </Reference>
-    <Reference Include="RD.DB.Access">
-      <HintPath>..\..\RDTools\DB.Access\bin\Debug\RD.DB.Access.dll</HintPath>
+    <Reference Include="RD.DB.Access, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Client\RDTools\RDTools\bin\Debug\RD.DB.Access.dll</HintPath>
     </Reference>
     <Reference Include="RD.Proxy, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\电子病历\RDEMR\bin\Debug\RD.Proxy.dll</HintPath>
     </Reference>
-    <Reference Include="RD.Tools, Version=6.1.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\DotNetHIS\Src\RDTools\RDTools\bin\Debug\RD.Tools.dll</HintPath>
+    <Reference Include="RD.Tools">
+      <HintPath>..\..\Client\RDTools\RDTools\bin\Debug\RD.Tools.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />

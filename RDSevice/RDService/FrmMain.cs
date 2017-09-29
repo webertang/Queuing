@@ -105,7 +105,8 @@ namespace RD.Service
                 this.notifyIcon1.ShowBalloonTip(1000, "系统配置信息", this.notifyIcon1.Text, ToolTipIcon.Info);
 
                 //第二页
-                new Thread(delegate() {
+                new Thread(delegate()
+                {
                     Thread.Sleep(4000);
                     showText = string.Format("语音服务地址:{0}:{1}", RDManagementClass.GetHostIP(0).ToString(), messageport);
                     this.notifyIcon1.Text = showText;
@@ -177,9 +178,10 @@ namespace RD.Service
         //添加语音并发送内容到LED，由于LED超时可能过长采用多线程处理 add by:tzw@2016.7.3
         private void Work(object obj)
         {
-            //0                 1  @  0    1               2        3           4      5           6        7           8          9
-            //屏ID/IP1|IP2|IP3|……@rowID|Name|Departments(科室)|Office(诊室)|Doctor|SoundCardID|visitNumber|visitName|waitNumber|waitName
+            //0      @1(0                       1        2              3            4                5                    6                     7                       8          9
+            //LED屏ID@rowID(LED行号/安卓屏幕ID)|Name|Departments(科室)|Office(诊室)|Doctor(医生名称)|SoundCardID(声卡ID)|visitNumber(就诊人号码)|visitName(就诊人姓名)|waitNumber(等候人号码)|waitName(等候人姓名)
             MessageEventArgs messageEventArgs = (MessageEventArgs)obj;
+            WriteLog("内容：", messageEventArgs.Message);
             try
             {
                 string[] iCardNum = messageEventArgs.Message.Split('@');
@@ -206,14 +208,25 @@ namespace RD.Service
                     //内江叫号接口调用
                     //AndroidScreent
                     string[] message = iCardNum[1].Split('|');
-                    if (myKey.IndexOf("AndroidScreent") > -1)
-                        messageSender.UpdateQueue(iCardNum);//更新安卓屏内容显示
+                    if (message.Length < 10)
+                    {
+                        WriteLog("错误:", "↑数据不完整：不予叫号");
+                        return;
+                    }
+
+                    messageSender.UpdateQueue(iCardNum);//更新安卓屏内容显示
 
                     //请!QueueNumber+Name到Office就诊!
                     string sendText = "请!" + message[1] + "到" + message[2] + "," + message[3];
                     //发送声音
                     messageSender.Send(Convert.ToInt32(message[5]), sendText);
 
+                    //没有LED屏幕ID,LED屏不发送内容
+                    if (string.IsNullOrEmpty(iCardNum[0].Trim()))
+                    {
+                        File.AppendAllText("错误:", "↑无LED屏ID：不发送LED内容");
+                        return;
+                    }
                     //VoiceSystem
                     //在连接屏幕发送内容时候禁止其他客户端连接发送内容,否则导致接口内存溢出程序崩溃
                     lock (_screenConnect)
@@ -231,7 +244,7 @@ namespace RD.Service
 
         private void WriteLog(string title, string txt)
         {
-            string path = AppDomain.CurrentDomain.BaseDirectory + "\\Error.log";
+            string path = AppDomain.CurrentDomain.BaseDirectory + "\\MSG.log";
             File.AppendAllText(path, "\r\n" + title + DateTime.Now + "\r\n数据：" + txt, Encoding.UTF8);//写入内容 // 根据路径出内容
         }
 
@@ -498,7 +511,7 @@ namespace RD.Service
 
                 return true;
             }
-            catch (Exception e)
+            catch (Exception)
             {
                 strMessage = "不合法的注册认证文件";
                 return false;
