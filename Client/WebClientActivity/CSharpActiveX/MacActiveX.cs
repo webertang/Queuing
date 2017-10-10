@@ -12,6 +12,7 @@ using System.Threading;
 
 namespace CSharpActiveX
 {
+    #region Demo
     [Guid("65D8E97F-D3E2-462A-B389-241D7C38C518")]
     public class MacActiveX : ActiveXControl
     {
@@ -32,8 +33,9 @@ namespace CSharpActiveX
             return sb.ToString() + "1.0.2";
         }
     }
+    #endregion
 
-    #region ISocketMessager
+    #region ISocketMessager 网页Socket
     [Guid("17CE6C43-3FE9-4CFB-A2B0-5C2F2328B400")]
     public class SocketMessager : ActiveXControl
     {

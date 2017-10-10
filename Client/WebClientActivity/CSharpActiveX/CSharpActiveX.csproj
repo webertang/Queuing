@@ -42,8 +42,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ActiveXControl.cs" />
-    <Compile Include="IObjectSafety.cs" />
+    <Compile Include="ActiveXControl.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="IObjectSafety.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="MacActiveX.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TimeOutSocket.cs" />
