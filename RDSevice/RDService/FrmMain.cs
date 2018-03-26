@@ -39,6 +39,8 @@ namespace RD.Service
         MessageSender messageSender = new MessageSender();//LED屏、语音消息发送
         private object _screenConnect = new object();
         private int repeatCallTimes;//重叫次数
+        private int androidUpdate;//安卓内容更新
+
         private int VoiceSystem = Convert.ToInt32(AppConfig.GetAppSetting("VoiceSystem"));
         private int VoiceSpeed = Convert.ToInt32(AppConfig.GetAppSetting("VoiceSpeed"));
 
@@ -55,6 +57,7 @@ namespace RD.Service
             Listenter = AppConfig.GetAppSetting("Listenter");
 
             repeatCallTimes = Convert.ToInt32(AppConfig.GetAppSetting("RepeatCallTimes"));
+            androidUpdate = Convert.ToInt32(AppConfig.GetAppSetting("AndroidUpdate"));
 
             if (Listenter == "1")
             {
@@ -158,6 +161,7 @@ namespace RD.Service
 
             //tablealter();
 
+
         }
 
 
@@ -181,7 +185,8 @@ namespace RD.Service
             //0      @1(0                       1        2              3            4                5                    6                     7                       8          9
             //LED屏ID@rowID(LED行号/安卓屏幕ID)|Name|Departments(科室)|Office(诊室)|Doctor(医生名称)|SoundCardID(声卡ID)|visitNumber(就诊人号码)|visitName(就诊人姓名)|waitNumber(等候人号码)|waitName(等候人姓名)
             MessageEventArgs messageEventArgs = (MessageEventArgs)obj;
-            WriteLog("内容：", messageEventArgs.Message);
+
+            LogHelper.WriteLog("内容：", messageEventArgs.Message);
             try
             {
                 string[] iCardNum = messageEventArgs.Message.Split('@');
@@ -210,11 +215,12 @@ namespace RD.Service
                     string[] message = iCardNum[1].Split('|');
                     if (message.Length < 10)
                     {
-                        WriteLog("错误:", "↑数据不完整：不予叫号");
+                        LogHelper.WriteLog("错误:", "↑数据不完整：不予叫号");
                         return;
                     }
 
-                    messageSender.UpdateQueue(iCardNum);//更新安卓屏内容显示
+                    if (androidUpdate == 1)
+                        messageSender.UpdateQueue(iCardNum);//更新安卓屏内容显示
 
                     //请!QueueNumber+Name到Office就诊!
                     string sendText = "请!" + message[1] + "到" + message[2] + "," + message[3];
@@ -238,14 +244,8 @@ namespace RD.Service
             }
             catch
             {
-                WriteLog("程序异常", messageEventArgs.Message);
+                LogHelper.WriteLog("程序异常", messageEventArgs.Message);
             }
-        }
-
-        private void WriteLog(string title, string txt)
-        {
-            string path = AppDomain.CurrentDomain.BaseDirectory + "\\MSG.log";
-            File.AppendAllText(path, "\r\n" + title + DateTime.Now + "\r\n数据：" + txt, Encoding.UTF8);//写入内容 // 根据路径出内容
         }
 
         PDTools.MainFrm voiceMF = null;
