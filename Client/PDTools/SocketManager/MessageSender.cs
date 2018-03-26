@@ -1,9 +1,11 @@
 ﻿using RD.Proxy.Common;
+using RDTools.Common;
 using RDTools.Voice;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Threading;
 using WaveLib;
 
@@ -118,13 +120,13 @@ namespace PDTools.SocketManager
                                                 "', waitpatient='" + waitpatient + "', waitnumber='" + waitnumber +
                                                 "', ksmc='" + department + "', ysmc='" + Doctor +
                                         "'  where  zsdm = '" + officeId + "' and pmid = '" + screenId + "'";
-
+                LogHelper.WriteLog("Android数据",sql);
 
                 querySolutionFacade.ExecCustomQuery(sql);
             }
             catch (Exception)
             {
-
+                
             }
         }
 
@@ -194,7 +196,5 @@ namespace PDTools.SocketManager
                 Thread.Sleep(500);
             }
         }
-
-
     }
 }

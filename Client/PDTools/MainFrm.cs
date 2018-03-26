@@ -425,14 +425,14 @@ namespace PDTools
 
         private void button1_Click(object sender, EventArgs e)
         {
-            RDTools.Voice.Voice v = new RDTools.Voice.Voice();
-            if (v.jTTS_GetStatus() == RDTools.Voice.Jtts.STATUS_READING)
-            {
-                MessageBox.Show("正在读");
-                return;
-            }
-
-            v.PlayText("请001号张哎三到一诊室就诊");
+            //RDTools.Voice.Voice v = new RDTools.Voice.Voice();
+            //if (v.jTTS_GetStatus() == RDTools.Voice.Jtts.STATUS_READING)
+            //{
+            //    MessageBox.Show("正在读");
+            //    return;
+            //}
+            //v.PlayText("请001号张哎三到一诊室就诊");
+            new Sender().Send("192.168.3.131", 8989,"test123");
         }
 
     }
